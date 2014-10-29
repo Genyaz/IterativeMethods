@@ -6,13 +6,18 @@
     <uses-sdk android:minSdkVersion="16"/>
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
         <activity android:name=".MainMenuActivity"
-                  android:label="@string/app_name">
+                  android:label="@string/app_name"
+                  android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".BifurcationsActivity"/>
-        <activity android:name=".SequenceLimitActivity"/>
+        <activity android:name=".BifurcationsActivity"
+                  android:screenOrientation="landscape"/>
+        <activity android:name=".SequenceLimitActivity"
+                  android:screenOrientation="landscape"/>
+        <activity android:name=".SequencePolylineActivity"/>
+        <activity android:name=".FractalPictureActivity"/>
     </application>
 </manifest>

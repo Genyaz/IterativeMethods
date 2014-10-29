@@ -4,10 +4,29 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
-    <TextView
-            android:layout_width="fill_parent"
+    <Button
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
-            />
+            android:text="Bifurcations Diagram"
+            android:id="@+id/mainmenu_to_bifurcations" android:layout_gravity="center_horizontal"
+            android:onClick="onClick"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sequence Limits"
+            android:id="@+id/mainmenu_to_sequencelimits" android:layout_gravity="center_horizontal"
+            android:onClick="onClick"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sequence Polyline"
+            android:id="@+id/mainmenu_to_sequencepolyline" android:layout_gravity="center_horizontal" android:onClick="onClick"
+            android:visibility="gone"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fractal Picture"
+            android:id="@+id/mainmenu_to_fractalpicture" android:layout_gravity="center_horizontal"
+            android:onClick="onClick"/>
 </LinearLayout>
 

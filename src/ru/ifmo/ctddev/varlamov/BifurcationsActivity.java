@@ -19,7 +19,7 @@ import java.util.List;
 public class BifurcationsActivity extends Activity {
 
     private static final int ITERATIONS_BEFORE_STABILIZATION = 500;
-    private static final double START_X = 2.4;
+    private static final double START_X = 1;
     private static final double END_X = 4;
     private static final int MAX_LIMITS_SIZE = 512;
     private static final double EPSILON = 1e-4;
