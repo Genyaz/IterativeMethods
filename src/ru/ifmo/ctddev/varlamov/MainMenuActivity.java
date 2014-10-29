@@ -11,8 +11,8 @@ public class MainMenuActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
-        Intent intent = new Intent(this, BifurcationsActivity.class);
+        setContentView(R.layout.mainmenu_activity);
+        Intent intent = new Intent(this, SequenceLimitActivity.class);
         startActivity(intent);
     }
 }

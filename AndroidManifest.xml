@@ -13,5 +13,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".BifurcationsActivity"/>
+        <activity android:name=".SequenceLimitActivity"/>
     </application>
 </manifest>
