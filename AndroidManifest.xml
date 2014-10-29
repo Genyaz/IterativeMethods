@@ -19,5 +19,6 @@
                   android:screenOrientation="landscape"/>
         <activity android:name=".SequencePolylineActivity"/>
         <activity android:name=".FractalPictureActivity"/>
+        <activity android:name=".FractalPolylineActivity"/>
     </application>
 </manifest>

@@ -28,5 +28,11 @@
             android:text="Fractal Picture"
             android:id="@+id/mainmenu_to_fractalpicture" android:layout_gravity="center_horizontal"
             android:onClick="onClick"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fractal polyline"
+            android:id="@+id/mainmenu_to_fractal_polyline" android:layout_gravity="center_horizontal"
+            android:onClick="onClick"/>
 </LinearLayout>
 

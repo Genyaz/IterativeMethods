@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:id="@+id/fractal_polylne_layout">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp" android:layout_weight="1" android:id="@+id/fractal_polyline_frame">
+    </FrameLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:ems="10"
+                android:id="@+id/fractal_polyline_xedit" android:layout_weight="0.4" android:layout_gravity="center_vertical"
+                android:hint="X"/>
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:ems="10"
+                android:id="@+id/fractal_polyline_yedit" android:layout_weight="0.4" android:layout_gravity="center_vertical"
+                android:hint="Y"/>
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Run"
+                android:layout_weight="0.2" android:layout_gravity="center_vertical"
+                android:id="@+id/fractal_polyline_run"/>
+    </LinearLayout>
+</LinearLayout>

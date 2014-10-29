@@ -36,6 +36,10 @@ public class MainMenuActivity extends Activity implements View.OnClickListener {
                 intent = new Intent(this, FractalPictureActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.mainmenu_to_fractal_polyline:
+                intent = new Intent(this, FractalPolylineActivity.class);
+                startActivity(intent);
+                break;
         }
     }
 }
